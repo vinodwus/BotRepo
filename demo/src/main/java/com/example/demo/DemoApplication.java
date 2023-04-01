@@ -13,6 +13,7 @@ public class DemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 		 // Initialize Api Context
+		System.out.println("Main class running");
       ApiContextInitializer.init();
 
       // Instantiate Telegram Bots API
